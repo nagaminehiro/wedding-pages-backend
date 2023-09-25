@@ -17,7 +17,7 @@ attendanceRouter.post("/", async (req, res) => {
         confirm: req.body.confirm,
         phone: req.body.phone,
         email: req.body.email,
-        quantityAttendance: req.body.quantityAttendance,
+        quantityCompanion: req.body.quantityCompanion,
         companion: req.body.companion
     })
 
@@ -26,7 +26,7 @@ attendanceRouter.post("/", async (req, res) => {
         .catch((err) => {
             console.log(err)
             res.status(500).send("Error ao salvar")
-        })    
+        })
 });
 
 module.exports = attendanceRouter;

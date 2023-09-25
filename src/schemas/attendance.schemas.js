@@ -7,7 +7,7 @@ const attendanceSchema = new mongoose.Schema({
   confirm: Boolean,
   phone: String,
   email: String,
-  quantityAttendance: Number,
+  quantityCompanion: Number,
   companion: [{
     type: String
   }]
