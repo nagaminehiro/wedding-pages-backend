@@ -1,4 +1,4 @@
-const allowedOrigins = ['http://localhost:4200']; // Adicione suas origens permitidas aqui
+const allowedOrigins = ['https://sayuriemessias.com.br']; // Adicione suas origens permitidas aqui
 
 function getCorsOptions() {
   return {
